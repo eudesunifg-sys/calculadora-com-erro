@@ -4,9 +4,9 @@ def calculadora():
         operador = input("Digite a operação (+, -, *, /): ")
         numero2 = float(input("Digite o segundo número: "))
 
-        if operador == "-": # Erro proposital: trocado + por -
+        if operador == "+":
             resultado = numero1 + numero2
-        elif operador == "+": # Erro proposital: trocado - por +
+        elif operador == "-":
             resultado = numero1 - numero2
         elif operador == "*":
             resultado = numero1 * numero2
